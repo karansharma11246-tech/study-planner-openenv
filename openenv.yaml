@@ -1,0 +1,13 @@
+name: study-planner-env
+description: AI Study Planner Environment
+
+entrypoint: inference:main
+
+endpoints:
+  reset: /reset
+  step: /step
+
+tasks:
+  - name: Easy
+  - name: Medium
+  - name: Hard
